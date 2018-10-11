@@ -5,6 +5,14 @@
     "NEW_BASE_URL": {
       "description": "Redirect all requests to this URL.",
       "value": "http://example.com"
+    },
+    "REDIRECT_STATUS": {
+      "description": "HTTP status code to use for redirected requests.",
+      "value": "308"
+    },
+    "CACHE_CONTROL_MAX_AGE": {
+      "description": "max-age value for a Cache-Control header sent with the response.",
+      "value": "31556926"
     }
   }
 }

@@ -8,9 +8,9 @@ To redirect all requests to example.com:
 heroku config:add NEW_BASE_URL=http://example.com
 ```
 
-To use an alternative HTTP status code set `REDIRECT_STATUS`. Defaults to 302.
+To use an alternative HTTP status code set `REDIRECT_STATUS`. Defaults to 308.
 ```
-heroku config:add REDIRECT_STATUS=301
+heroku config:add REDIRECT_STATUS=307
 ```
 
 ## Deployment
